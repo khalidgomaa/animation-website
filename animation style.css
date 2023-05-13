@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 1000px;
+}
+
+.sign-in {
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(248, 241, 241);
+    border-radius: 5px;
+    color: aliceblue;
+
+    padding: 9px;
+    animation: button 3s infinite;
+
+}
+
+.sign-up {
+    color: aliceblue;
+    position: fixed;
+    right: 40px;
+    top: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(248, 241, 241);
+    border-radius: 5px;
+    padding: 9px;
+    animation: button 3s infinite;
+}
+
+h1 {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    animation: mymove 5s infinite;
+}
+
+@keyframes button {
+    0% {
+        padding: 9px 9px;
+        border-radius: 5px;
+    }
+
+    50% {
+        padding: 9px 25px;
+        border-radius: 20px;
+    }
+
+    100% {
+        padding: 9px 9px;
+        border-radius: 5px;
+    }
+}
+
+@keyframes mymove {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    40% {
+        transform: translate(0px, 50px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -50px;
+    width: 100%;
+
+}
+
+.k {
+    width: 50px;
+}
+
+.kk1 {
+    animation: bubles 9s infinite;
+
+}
+
+.kk2 {
+    animation: bubles 15s infinite;
+
+}
+
+
+
+.kk3 {
+    animation: bubles 11s infinite;
+
+}
+
+.kk4 {
+    animation: bubles 15s infinite;
+
+}
+
+.kk5 {
+    animation: bubles 6s infinite;
+
+}
+
+.kk6 {
+    animation: bubles 7s infinite;
+
+}
+.kk7 {
+    animation: bubles 14s infinite;
+
+}
+.kk8 {
+    animation: bubles 5s infinite;
+
+}
+.kk9 {
+    animation: bubles 25s infinite;
+
+}
+@keyframes bubles {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, -400px);
+        opacity: 0;
+    }
